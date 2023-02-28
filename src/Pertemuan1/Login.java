@@ -27,8 +27,34 @@ public class Login extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        jLabel1.setText("username");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(30, 30, 69, 20);
+
+        jTextField1.setText("jTextField1");
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(140, 30, 84, 26);
+
+        jLabel2.setText("password");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(30, 100, 67, 20);
+
+        jTextField2.setText("jTextField2");
+        getContentPane().add(jTextField2);
+        jTextField2.setBounds(140, 90, 84, 26);
+
+        jButton1.setText("login");
+        getContentPane().add(jButton1);
+        jButton1.setBounds(90, 230, 67, 29);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -69,5 +95,10 @@ public class Login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
 }
